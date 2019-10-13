@@ -1,0 +1,26 @@
+{
+  "name": "learn",
+  "version": "0.1.0",
+  "description": "",
+  "main": "",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwilliam/learn.git"
+  },
+  "author": "William L <w-lindvall@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shwilliam/learn/issues"
+  },
+  "homepage": "https://github.com/shwilliam/learn#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
