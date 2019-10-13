@@ -1,0 +1,35 @@
+/* mobile styles */
+/* these are always applied unless overridden */
+
+.container {
+  margin: 40px;
+  text-align: center;
+}
+
+.links {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* tablet breakpoint */
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    text-align: left;
+  }
+
+  .contact {
+    flex-grow: 1;
+  }
+
+  .links {
+    text-align: left;
+  }
+}
+
+/* desktop breakpoint */
+@media (min-width: 900px) {
+  .container {
+    margin: 80px;
+  }
+}
